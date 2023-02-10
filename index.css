@@ -1,0 +1,124 @@
+body{
+    background: black;
+    color: white;
+}
+hr{
+    width: 100%;
+    border: none;
+    height: 10px;
+    padding-top: 0px;
+    background-color: rgb(50, 48, 48);
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/netflix-main-page-image.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center; 
+}
+
+.main .main-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    
+}
+.main .main-top button{
+    height: 40px;
+}
+.sign-in{
+    border: none;
+    border-radius: 8px;
+    width: max-content;
+    font-size: 16px;
+    margin-top: 25px;
+}
+/*main middle styles */
+.main-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: 30px;
+    padding: 75px 0px 75px 0px;
+}
+.main-middle h1, h3, h5{
+    margin: 20px;
+    color: #fff;
+}
+.main-middle h1{
+    font-size: 3rem;
+}
+.email-bar{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
+input{
+    width: 100%;
+    height: 60px;
+}
+button{
+    border: 1px solid rgb(161, 159, 159);
+    height: 65px;
+    width: 200px;
+    background-color:#e50914;
+    font-size: large;
+}
+/*page 2*/
+.page2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 20px 20px 80px;
+}
+.page2-text{
+    padding-top: 100px;
+}
+.page2-text h1{
+    font-size: 42px;
+}
+.page2-text p{
+    font-size: 36px;
+}
+/*page 3*/
+.page3{
+    display: flex;
+}
+.page3-text{
+    padding-top: 100px;
+    padding-right: 40px;
+}
+.page3-text h1{
+    font-size: 42px;
+}
+.page3-text p{
+    font-size: 28px;
+}
+/*page 4*/
+.page4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.page4-text{
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.page4-text h1{
+    font-size: 42px;
+}
+.page4-text p{
+    font-size: 28px;
+}
+/*page 5*/
+.page5{
+    display: flex;
+}
+.page5-text{
+    padding-top: 100px;
+    padding-right: 40px;
+}
+.page5-text h1{
+    font-size: 42px;
+}
+.page5-text p{
+    font-size: 28px;
+}
