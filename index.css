@@ -40,6 +40,7 @@ hr{
     font-size: 1.6rem;
     margin-top: 30px;
     padding: 75px 0px 75px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .main-middle h1, h3, h5{
     margin: 20px;
@@ -52,6 +53,9 @@ hr{
     display: flex;
     flex-direction: row;
     width: 700px;
+}
+.main-middle h5{
+    font-weight: 200;
 }
 input{
     width: 100%;
