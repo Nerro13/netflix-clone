@@ -29,8 +29,12 @@ hr{
     border: none;
     border-radius: 8px;
     width: max-content;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 25px;
+    color: #fff;
+}
+.getstat{
+    border: none;
 }
 /*main middle styles */
 .main-middle{
@@ -125,4 +129,25 @@ button{
 }
 .page5-text p{
     font-size: 28px;
+}
+/*last page*/
+.last-page{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.last-page li{
+    /* border: 1px solid rebeccapurple; */
+    width: 700px;
+    list-style: none;
+    height: 50px;
+    background-color: gray;
+    
+    
+}
+.last-page p{
+    width: 700px;
+    background-color: rgb(141, 134, 134);
 }
